@@ -194,7 +194,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        // JWT composer require tymon/jwt-auth:dev-develop --prefer-source
+        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
 
 
     ],
